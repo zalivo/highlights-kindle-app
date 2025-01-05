@@ -64,7 +64,7 @@ ${highlightText}
     };
 
     return (
-        <div className="space-y-6">
+        <div className="space-y-6 max-w-lg mx-auto">
             <Card>
                 <CardHeader>
                     <CardTitle>Book Information</CardTitle>
@@ -131,7 +131,7 @@ ${highlightText}
                         <PopoverTrigger asChild>
                             <Button
                                 variant="outline"
-                                className="w-[240px] justify-start text-left font-normal"
+                                className="w-[240px] justify-start text-left border-input"
                             >
                                 <CalendarIcon className="mr-2 h-4 w-4" />
                                 {selectedDate ? (
@@ -195,7 +195,7 @@ ${highlightText}
                         <CardTitle>Formatted Highlight</CardTitle>
                     </CardHeader>
                     <CardContent>
-                        <pre className="bg-muted p-4 rounded whitespace-pre-wrap">
+                        <pre className="bg-muted p-4 rounded whitespace-pre-wrap break-words overflow-auto">
                             {formattedText}
                         </pre>
                         <div className="mt-4 flex items-center space-x-2">
