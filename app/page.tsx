@@ -1,4 +1,3 @@
-import { Footer } from "@/components/Footer";
 import { HighlightForm } from "@/components/HighlightForm";
 import { Space_Grotesk } from "next/font/google";
 
@@ -14,7 +13,6 @@ export default function Home() {
                     Kindle Highlight Formatter
                 </h1>
                 <HighlightForm />
-                <Footer />
             </div>
         </main>
     );

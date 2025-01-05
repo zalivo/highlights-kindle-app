@@ -48,7 +48,8 @@ export function HighlightForm() {
             "EEEE, d MMMM yyyy HH:mm:ss"
         );
 
-        const formatted = `==========${bookName}
+        const formatted = `==========
+${bookName}
 - Your Highlight on page ${pageNumber} | location ${location} | Added on ${formattedDateTime}
 
 ${highlightText}
