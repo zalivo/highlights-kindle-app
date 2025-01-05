@@ -49,10 +49,6 @@ export const FooterDefaults: Props = {
                     title: "Arrows by Handyarrows",
                     url: "https://handyarrows.com/",
                 },
-                {
-                    title: "GitHub",
-                    url: "https://github.com/zalivo/highlights-kindle-app",
-                },
             ],
         },
     ],
