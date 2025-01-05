@@ -15,6 +15,7 @@
     "@radix-ui/react-tooltip": "^1.1.6",
     "@relume_io/relume-tailwind": "^1.0.0",
     "@relume_io/relume-ui": "^1.0.1",
+    "@vercel/analytics": "^1.4.1",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "date-fns": "^3.6.0",
